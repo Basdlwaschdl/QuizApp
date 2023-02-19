@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/hintergrund.jpg);
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+header {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Question-Box {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 900px;
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000 0.5;
+}
+
+.Question {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000 0.5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin-top: 30px;
+    border: double 1px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #E93900, #0084F8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin-bottom: 50px;
+
+}
+
+.Answer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+.Answer-Sub {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border: double 1px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #E93900, #0084F8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin-top: 40px;
+    width: 300px;
+    height: 80px;
+    transition: 0.5s;
+
+}
+
+.Answer-Sub:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 24px 5px #6b6565;
+}
+
+.next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border: double 1px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #E93900, #0084F8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin-top: 40px;
+    width: 80%;
+    height: 80px;
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000 0.5;
+}
+
+.progress {
+    margin-left: 60px;
+}
+
+.button-next {
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 60px;
+    transition: all .5s ease;
+    text-transform: uppercase;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.button-next:hover {
+    cursor: pointer;
+    color: #001F3F;
+    background-color: #fff;
+}
+
+.rightAnswer {
+    color: chartreuse;
+    border-color: chartreuse;
+    transform: scale(1.1);
+}
+
+.wrongAnswer {
+    color: #E93900;
+    border-color: #E93900;
+    transform: scale(0.9);
+}
+
+.EndscreenText {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+.replyButton {
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .5s ease;
+    text-transform: uppercase;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #6b6565;
+}
+
+.replyButton:hover {
+    cursor: pointer;
+    color: #001F3F;
+    background-color: #fff;
+}
+
+.Endscreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: double 1px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #E93900, #0084F8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.EndscreenBox {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 900px;
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000 0.5;
+    background-blend-mode: overlay;
+}
+
+.progressBar {
+    width: 80%;
+    height: 20px;
+    border: double 1px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #E93900, #0084F8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+        box-shadow: 5px 5px 15px 5px #000000 0.5;
+}
+
+.progressBarsub {
+    height: 20px;
+    background: rgb(233, 57, 0);
+    background: linear-gradient(90deg, rgba(233, 57, 0, 1) 0%, rgba(0, 132, 248, 1) 100%);
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .EndscreenBox {
+        width: 80%;
+    }
+
+    .Endscreen {
+        padding: 15px;
+        margin: 0px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .EndscreenText {
+        font-size: 20px;
+    }
+
+    .Question-Box {
+        width: 90%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Question {
+        
+        padding: 5px;
+    }
+
+    .progress {
+        display: none;
+    }
+
+    .button-next {
+        margin: 0;
+    }
+
+    .next {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Answer-Sub {
+        margin: 10px;
+        height: 50px; 
+        
+    }
+
+    .progressBar {
+        margin-top: 30px;
+    }
+
+    .Answer {
+        width: 85%;
+    }
+}
